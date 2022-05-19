@@ -58,4 +58,21 @@ hr.solid {
 
 .fa-instagram {
     color: white;
+    background-color: mediumslateblue;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    color: white;
+    background-color: orangered;
+}
+
+.social-media {
+    background-color: white;
+    height: 100%;
+    width: 210px;
 }
