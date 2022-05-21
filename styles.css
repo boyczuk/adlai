@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+}
+
 body {
     max-width: 1200px;
     --header-height: 50px;
