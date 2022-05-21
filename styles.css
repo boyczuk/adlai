@@ -5,7 +5,15 @@
 @media only screen and (max-width: 767px) {
     body {
         text-align: center;
+
     }
+
+    .content {
+        margin-left: 0px;
+        margin-top: 70px;
+        padding-left: 20px;
+    }
+
 }
 
 body {
