@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <title>Adlai Bridson-Boyczuk</title>
+    <title>adlai.ca</title>
+    <script>
+        window.addEventListener("load", () => {
+            document.body.classList.remove("preload");
+        });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const nav = document.querySelector(".nav");
+
+            document.querySelector("#btnNav").addEventListener("click", () => {
+                nav.classList.add("nav--open");
+            });
+
+            document.querySelector(".nav__overlay").addEventListener("click", () => {
+                nav.classList.remove("nav--open");
+            });
+        });
+    </script>
 </head>
 
-<body>
-<div class="sidenav">
-    <p>
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
-        <a href="JSPlayground.html">JS Playground</a>
-        <a href="PYPlayground.html">PY Playground</a>
-    </p>
-    
-    <hr class="solid">
+<body class="preload">
+    <header class="header">
+        <button class="header__button" id="btnNav" type="button">
+            <i class="material-icons">menu</i>
+        </button>
+        <h1>Adlai Bridson-Boyczuk</h1>
+    </header>
 
-    <div class="footer">
-        <p>
-            <a href="https://www.instagram.com/boyczuk" class="fa fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/adlai-bridson-boyczuk-288b19195/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/boyczuk" class="fa fa-github"></a>
-        </p>
+    <nav class="nav">
+        <div class="nav__links">
+            <a href="index.html" class="nav__link nav__link--active">
+                <i class="material-icons">dashboard</i>
+                Home
+            </a>
+            <a class="nav__link" href="contact.html">
+                <i class="material-icons">contacts</i>
+                Contact
+            </a>
+            <a class="nav__link" href="JSPlayground.html">
+                <i class="material-icons">code</i>
+                JS Playground
+            </a>
+            <a class="nav__link" href="PYPlayground.html">
+                <i class="material-icons">code</i>
+                PY Playground
+            </a>
+            <div class="footer">
+                <p>
+                    <a href="https://www.instagram.com/boyczuk" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/adlai-bridson-boyczuk-288b19195/" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/boyczuk" class="fa fa-github"></a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="nav__overlay"></div>
+    </nav>
+
+
+
+    <div class="content">
+        <h3>About Me</h3>
+        <p>My name is Adlai Bridson-Boyczuk, I am a second year Computing Student at
+            Queen's University in Kingston, Ontario.</p>
+        <p>My focus is on cryptography, game design, software development, artificial intelligence
+            and network security. Looking for opportunities to work in and learn more about these fields.</p><br>
+
+        <h3>Projects</h3>
+        <p>Projects also found on my <a href="Adlai Resume 2022 (2).pdf" target="_blank">resume</a>.</p>
+        <h4>Herring</h4>
+        <p>Herring is a isometric RPG game developed using Unity 2D.</p>
+        <h4>Stalemate</h4>
+        <p>Logic modelling project developed as the final project for "CISC/CMPE 204 Logic For Computing Science"</p>
+        <h4>Forest Rumble</h4>
+        <p>Forest Rumble is a 2D platformer developed as the final project in CISC226 (Game Design) at Queen's
+            University
+            .</p>
+        <img src="Images\ForestRumble.JPG" alt="Forest Rumble Screenshot" style="width:420px;height:255px;">
+        <h4>Toteworthy</h4>
+        <p>Environmentally friendly and conscious totebag and accessories startup with Junior Achievment.</p>
+        <iframe width="448" height="252" src="https://www.youtube.com/embed/ALKD6ZFrOy4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <p></p>
+
+
+        <br>
+        <h3>Relevant Coursework</h3>
+        <p>CISC235 - Data Structures,<br> CISC226 - Game Design,<br> CISC124 - Object-Oriented Programming,<br> CISC220
+            - System
+            Level Programming,<br> CISC221 - System Architecture</p>
     </div>
-</div>
-
-<div class="content">
-    <h1>Adlai Bridson-Boyczuk</h1>
-    <h3>About Me</h3>
-    <p>My name is Adlai Bridson-Boyczuk, I am a second year Computing Student at  
-        Queen's University in Kingston, Ontario.</p>
-    <p>My focus is on cryptography, game design, software development, artificial intelligence
-         and network security. Looking for opportunities to work in and learn more about these fields.</p><br>
-
-    <h3>Projects</h3>
-    <p>Projects also found on my <a href="https://docs.google.com/document/d/e/2PACX-1vSxrdUH7tAFmxuaEFjhdl0wc-MEHt
-        _dp2ejItk6M_-uYoGuUBXfXTi0HRKwX7XU1kfUGGsVgmiFwQ_U/pub">resume</a>.</p>
-    <h4>Herring</h4>
-    <p>Herring is a isometric RPG game developed using Unity 2D.</p>
-    <h4>Stalemate</h4>
-    <p>Logic modelling project developed as the final project for "CISC/CMPE 204 Logic For Computing Science"</p>
-    <h4>Forest Rumble</h4>
-    <p>Forest Rumble is a 2D platformer developed as the final project in CISC226 (Game Design) at Queen's University
-        .</p>
-    <img src="Images\ForestRumble.JPG" alt="Forest Rumble Screenshot" style="width:420px;height:255px;">
-    <h4>Toteworthy</h4>
-    <p>Environmentally friendly and conscious totebag and accessories startup with Junior Achievment.</p>
-    <iframe width="448" height="252" src="https://www.youtube.com/embed/ALKD6ZFrOy4" title="YouTube video player" 
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
-    <p></p>
-
-    
-    <br>
-    <h3>Relevant Coursework</h3>
-    <p>CISC235 - Data Structures,<br> CISC226 - Game Design,<br> CISC124 - Object-Oriented Programming,<br> CISC220 - System 
-        Level Programming,<br> CISC221 - System Architecture</p>
-</div>
 </body>
+
 </html>
