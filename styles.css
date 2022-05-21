@@ -2,15 +2,6 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 767px) {
-    .content {
-        margin-left: 30px;
-        margin-top: 70px;
-        padding-left: 10px;
-    }
-
-}
-
 body {
     max-width: 1200px;
     --header-height: 50px;
