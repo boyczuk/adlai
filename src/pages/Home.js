@@ -2,7 +2,7 @@ import React from 'react';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import resume from "../assets/AdlaiResumeNov2022.pdf";
+import resume from "../assets/AdlaiResumewebsite2022.pdf";
 import "../styles/Home.css";
 
 function Home() {
