@@ -1,34 +1,32 @@
 import ForestRumble from '../assets/ForestRumble.JPG';
+import LogicProject from '../assets/LogicProjectimage.jpg';
+import JAImage from '../assets/ToteworthyImage.jpg';
+import qbnbimg from '../assets/qbnbss.jpg';
 
 export const ProjectList = [
+    {
+        name: "QBNB - Airbnb clone",
+        image: qbnbimg,
+        skills: "Python, MongoDB, Flask, pytest"
+    },
     {
         name: "Forest Rumble Unity Game",
         image: ForestRumble,
         skills: "C#, Unity, HTML"
     },
     {
-        name: "Airbnb clone",
+        name: "Herring - Isometric RPG game",
         image: ForestRumble,
-        skills: "Python, MongoDB, Flask, pytest"
+        skills: "C#, Unity 2D"
     },
     {
-        name: "temp3",
-        image: ForestRumble,
-        skills: "C#, Unity, HTML"
+        name: "Stalemate - Eight Queen's Logic modelling",
+        image: LogicProject,
+        skills: "Python, Jape, Bauhaus"
     },
     {
-        name: "temp4",
-        image: ForestRumble,
-        skills: "C#, Unity, HTML"
-    },
-    {
-        name: "temp5",
-        image: ForestRumble,
-        skills: "C#, Unity, HTML"
-    },
-    {
-        name: "temp6",
-        image: ForestRumble,
-        skills: "C#, Unity, HTML"
+        name: "Toteworthy - merchanise company website",
+        image: JAImage,
+        skills: "JavaScript, ReactJS, HTML, CSS"
     },
 ];

@@ -9,9 +9,9 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <InstagramIcon onClick={event => window.location.href='https://instagram.com/boyczuk'} />
-            <LinkedInIcon onClick={event => window.location.href='https://www.linkedin.com/in/adlai-bridson-boyczuk-288b19195/'}/>
-            <GithubIcon onClick={event => window.location.href='https://github.com/boyczuk'}/>
+            <InstagramIcon onClick={event => window.open('https://instagram.com/boyczuk')} />
+            <LinkedInIcon onClick={event => window.open('https://www.linkedin.com/in/adlai-bridson-boyczuk-288b19195/')}/>
+            <GithubIcon onClick={event => window.open('https://github.com/boyczuk')}/>
         </div>
         <p> &copy; 2022 adlai.ca | 19aibb@queensu.ca</p>
     </div>

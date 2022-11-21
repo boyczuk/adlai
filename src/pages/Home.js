@@ -1,6 +1,6 @@
 import React from 'react';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
+import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import resume from "../assets/AdlaiResumeNov2022.pdf";
 import "../styles/Home.css";
@@ -14,10 +14,13 @@ function Home() {
           student at Queen's University. </p>
           <p><a href={resume} target="_blank">Resume</a></p>
           <p>Site in progress</p>
-          <LinkedInIcon />
-          <EmailIcon href="youtube.com"/>
-          <GitHubIcon />
+          <div className='socialMedia'>
+              <InstagramIcon onClick={event => window.open('https://instagram.com/boyczuk')} />
+              <LinkedInIcon onClick={event => window.open('https://www.linkedin.com/in/adlai-bridson-boyczuk-288b19195/')}/>
+              <GitHubIcon onClick={event => window.open('https://github.com/boyczuk')}/>
+            </div>
           </div>
+          
       </div>
       <div className='skills'> 
       <h1> skills</h1>
