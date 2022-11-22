@@ -12,7 +12,8 @@ function Home() {
         <h2> Hi, my name is Adlai </h2>
         <div className='prompt'> <p> An aspiring Software Developer and Computer Science 
           student at Queen's University. </p>
-          <p><a href={resume} target="_blank">Resume</a></p>
+          <p><a href={resume} target="_blank" style={{color: 'white'}}>Resume</a></p>
+          
           <p>Site in progress</p>
           <div className='socialMedia'>
               <InstagramIcon onClick={event => window.open('https://instagram.com/boyczuk')} />
@@ -23,7 +24,7 @@ function Home() {
           
       </div>
       <div className='skills'> 
-      <h1> skills</h1>
+      
       <ol className='list'>
         <li className='item'>
           <h2>Skills</h2>

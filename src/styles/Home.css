@@ -23,6 +23,10 @@
     color: #e9d35b;
     height: 50px;
   }
+
+  .about resume-link {
+    color: white;
+  }
   
   .about .prompt {
     width: 40%;
