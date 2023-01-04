@@ -2,7 +2,7 @@ import React from 'react';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import resume from "../assets/AdlaiResumewebsite2022.pdf";
+import resume from "../assets/ResumeWin23.pdf";
 import "../styles/Home.css";
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
     <div className='home'>
       <div className='about'>
         <h2> Hi, my name is Adlai </h2>
-        <div className='prompt'> <p> An aspiring Software Developer and Computer Science 
+        <div className='prompt'> <p> Aspiring Software Developer and Computer Science 
           student at Queen's University. </p>
           <p><a href={resume} target="_blank" style={{color: 'white'}}>Resume</a></p>
           
@@ -29,14 +29,14 @@ function Home() {
         <li className='item'>
           <h2>Skills</h2>
           <span>
-            ReactJS, NodeJS, Flask, MongoDB, Pytest HTML, CSS, NPM,
+            ReactJS, NodeJS, Flask, MongoDB, Pytest, HTML, CSS, NPM,
              MaterialUI, git, Linux, Agile development
           </span>
         </li>
         <li className='item'>
           <h2>Languages</h2>
           <span>
-            Python, Java, JavaScript, C, C++, Bash, C#
+            Python, Java, JavaScript, C++, Bash, C#
           </span>
         </li>
         <li className='item'>
