@@ -1,3 +1,3 @@
-## Graphics
-1. Change to earth tones (blacks, greys, etc)
-2. Change "Hi, my name is Adlai" to something else
+## TODO
+1. Change homepage, add subsections for class info etc
+2. Add about me page separate from home page

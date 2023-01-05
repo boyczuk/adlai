@@ -48,7 +48,7 @@ function Home() {
             CISC220(System Level Programming)<br></br> CISC223(Software Specifications)<br></br>
             CISC124(Object Oriented Programming)
           </span>
-          <h4>Next Semester</h4>
+          <h4>In Progress</h4>
           <span>
             CISC365(Algorithms)<br></br> CISC322(Software Architecture)<br></br>
              CISC335(Computer Networks)<br></br> CISC360(Programming Paradigms)
