@@ -2,16 +2,15 @@ import React from 'react';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import resume from "../assets/ResumeWin23.pdf";
+import resume from "../assets/ResumeAdlai.pdf";
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2> Hi, my name is Adlai </h2>
-        <div className='prompt'> <p> Aspiring Software Developer and Computer Science 
-          student at Queen's University. </p>
+        <div className='prompt'> <h3>Hi I'm Adlai an aspiring Software Developer and Computer Science 
+          student at Queen's University. </h3>
           <p><a href={resume} target="_blank" style={{color: 'white'}}>Resume</a></p>
           
           <p>Site in progress</p>
@@ -51,7 +50,7 @@ function Home() {
           <h4>In Progress</h4>
           <span>
             CISC365(Algorithms)<br></br> CISC322(Software Architecture)<br></br>
-             CISC335(Computer Networks)<br></br> CISC360(Programming Paradigms)
+             CISC352(Artificial Intelligence)<br></br> CISC360(Programming Paradigms)
             
           </span>
         </li>
