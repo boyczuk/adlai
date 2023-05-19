@@ -1,60 +1,122 @@
-import React from 'react';
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import resume from "../assets/ResumeAdlai.pdf";
+import React from "react";
+import resume from "../assets/Adlai_Resume.pdf";
 import "../styles/Home.css";
 
 function Home() {
   return (
-    <div className='home'>
-      <div className='about'>
-        <div className='prompt'> <h3>Hi I'm Adlai an aspiring Software Developer and Computer Science 
-          student at Queen's University. </h3>
-          <p><a href={resume} target="_blank" style={{color: 'white'}}>Resume</a></p>
-          
-          <p>Site in progress</p>
-          <div className='socialMedia'>
-              <InstagramIcon onClick={event => window.open('https://instagram.com/boyczuk')} />
-              <LinkedInIcon onClick={event => window.open('https://www.linkedin.com/in/adlai-bridson-boyczuk-288b19195/')}/>
-              <GitHubIcon onClick={event => window.open('https://github.com/boyczuk')}/>
-            </div>
-          </div>
-          
+    <div className="home">
+      <div className="about">
+        <h2>About</h2>
+        <p>
+          Hi my name is Adlai Bridson-Boyczuk and this is my website! I am
+          currently a 3rd year computer science student studying at Queen's
+          University. During my time at Queen's University I have spent time
+          developing projects in several organizations like QUANTT (Queen's
+          University Algorithmic Network & Trading Team) and QWEB (Queen's
+          University Web Development Club) and on my own outside of school.
+        </p>
+        <p>
+          Beyond school and programming I spend most of my time reading,
+          training Brazilian Jiu-Jitsu, or watching MMA.
+        </p>
+
+        <p>
+          <p>
+            Contact me at 'adlaibridsonboyczuk@gmail.com' or any of the social
+            media above!
+          </p>
+          My resume:<br></br>
+          <a href={resume} target="_blank" style={{ color: "blue" }}>
+            Resume
+          </a>
+        </p>
       </div>
-      <div className='skills'> 
-      
-      <ol className='list'>
-        <li className='item'>
-          <h2>Skills</h2>
-          <span>
-            ReactJS, NodeJS, Flask, MongoDB, Pytest, HTML, CSS, NPM,
-             MaterialUI, git, Linux, Agile development
-          </span>
-        </li>
-        <li className='item'>
-          <h2>Languages</h2>
-          <span>
-            Python, Java, JavaScript, C++, Bash, C#
-          </span>
-        </li>
-        <li className='item'>
-          <h2>Relevant Courses
-          </h2>
-          <span>
-            CISC235(Data Structures)<br></br> CISC324(Operating Systems)<br></br> 
-            CISC327(Software Quality Assurance)<br></br> CISC221(Computer Architecture)<br></br> 
-            CISC220(System Level Programming)<br></br> CISC223(Software Specifications)<br></br>
-            CISC124(Object Oriented Programming)
-          </span>
-          <h4>In Progress</h4>
-          <span>
-            CISC365(Algorithms)<br></br> CISC322(Software Architecture)<br></br>
-             CISC352(Artificial Intelligence)<br></br> CISC360(Programming Paradigms)
-            
-          </span>
-        </li>
-      </ol>
+      <div className="container">
+        <div className="skills">
+          <h2>Technical Skills</h2>
+          <li>
+            <b>Languages:</b>
+            <br></br>Python, Java, JavaScript, C, Bash, x86 Assembly,
+          </li>
+          <li>
+            <b>Frameworks:</b>
+            <br></br>HTML/CSS, Node.js, Express.js, React, Flask, Unity
+          </li>
+          <li>
+            {" "}
+            <b>Technologies:</b>
+            <br></br>MongoDB, MySQL, pandas, NumPy, Pytest, Linux, Excel, Git,
+            Docker, VS Code, NetBeans, Eclipse{" "}
+          </li>
+        </div>
+        <div className="courses">
+          <h2>Relevant Courses</h2>
+          <li>Algorithms</li>
+          <li>Data Structures</li>
+          <li>Artificial Intelligence</li>
+          <li>Operating Systems</li>
+          <li>Software Quality Assurance</li>
+          <li>Software Architecture</li>
+          <li>Functional Programming</li>
+        </div>
+      </div>
+
+      <div className="projects">
+        <h2>Projects</h2>
+        <p>
+          <b>Equities Trading Algorithm</b> |{" "}
+          <i>Python, Jupyter Notebooks, NumPy, pandas, QuantConnect</i>
+          <li>
+            Developed a Python securities trading algorithm that achieved 18%
+            profit in 3-year backtest against S&P 500
+          </li>
+          <li>
+            Implemented a SMA paired with a RSI indicator to determine when to
+            short Technology and Real Estate securities.
+          </li>
+        </p>
+
+        <p>
+          <b>QBNB</b> | <i>Python, Flask, MongoDB, Pytest, Linux, Docker</i>
+          <li>
+            Collaborated on a Python-based CLI app for property rentals and
+            booking using a Flask server, managing user data in MongoDB
+          </li>
+          <li>
+            Followed an agile development cycle and utilized Pytest for unit and
+            integration testing to ensure product quality
+          </li>
+        </p>
+        <p>
+          <b>UFC myGym</b> | <i>JavaScript, Node.js, Express.js, MongoDB, React</i>
+          <li>
+            MERN web application to track and train your favourite UFC fighters.
+          </li>
+        </p>
+
+        <p>
+          <b>myLibrary book tracker</b> | <i>C++, MySQL, Qt</i>
+          <li>
+            Designed and programmed a personal book manager to track and manage
+            my reading habits
+          </li>
+        </p>
+
+        <p>
+          <b>Forest Rumble</b> | <i>C#, Unity, HTML, Photoshop</i>
+          <li>
+            Led development of a 2D level-based platformer. Added novel physics
+            mechanics to pair with player movement
+          </li>
+        </p>
+
+        <p>
+          <b>Toteworthy Merchandise Website</b> | <i>React, Node.js, Boostrap</i>
+          <li>
+            Developed a website for a Junior Achievers merchandise startup
+            company.
+          </li>
+        </p>
       </div>
     </div>
   );

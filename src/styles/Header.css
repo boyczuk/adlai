@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f1f1f122;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  .title {
+    color: rgb(255, 255, 255);
+    margin-right: 20px; /* Add margin for spacing */
+  }
+  
+  .socialMedia {
+    display: flex; /* Enable flex layout for social media icons */
+    align-items: center; /* Align items vertically */
+  }
+  
+  /* Make smaller black box with rounded edges around title */
+  .socialMedia svg {
+    color: rgb(0, 0, 0);
+    margin-right: 20px; /* Add margin for spacing */
+    font-size: 70px;
+    cursor: pointer;
+    background-color: #ffffff; /* Set background color for pressable effect */
+    padding: 5px; /* Add padding for space around the icon */
+    border-radius: 50%; /* Make buttons rounded */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  .socialMedia svg:hover {
+    background-color: #555; /* Modify background color on hover */
+  }
+  
+  .header p {
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .socialMedia {
+      margin-top: 10px;
+    }
+  
+    .title {
+      margin-right: 0;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .socialMedia svg {
+      font-size: 50px;
+    }
+  }
