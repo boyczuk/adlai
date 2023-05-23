@@ -65,7 +65,7 @@ function Home() {
         <h2>Projects</h2>
         <p>
           <b>Equities Trading Algorithm</b> |{" "}
-          <i>Python, Jupyter Notebooks, NumPy, pandas, QuantConnect</i>
+          <i>Python, Jupyter Notebooks, NumPy, pandas, QuantConnect, Scikit-learn</i>
           <li>
             Developed a Python securities trading algorithm that achieved 18%
             profit in 3-year backtest against S&P 500
