@@ -8,8 +8,8 @@ function Home() {
       <div className="about">
         <h2>About</h2>
         <p>
-          Hi my name is Adlai Bridson-Boyczuk and this is my website! I am
-          currently a 3rd year computer science student studying at Queen's
+          Hi, my name is Adlai Bridson-Boyczuk I am a software developer
+          currently in my 3rd year of studying Computer Science at Queen's
           University. During my time at Queen's University I have spent time
           developing projects in several organizations like QUANTT (Queen's
           University Algorithmic Network & Trading Team) and QWEB (Queen's
