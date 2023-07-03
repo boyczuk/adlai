@@ -104,6 +104,22 @@
   line-height: 1.5;
 }
 
+.project-boxes:hover {
+  background-color: rgba(0, 0, 0, 0.199);
+}
+
+.clickable-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.clickable-link:hover {
+  color: red; /* Modify the color for the hover effect */
+}
+
+
 .projects li {
   list-style: none;
   margin-bottom: 10px; /* Increase the spacing between list items */

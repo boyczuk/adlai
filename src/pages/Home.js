@@ -51,20 +51,20 @@ function Home() {
         </div>
         <div className="courses">
           <h2>Relevant Courses</h2>
-          <li>Algorithms</li>
-          <li>Data Structures</li>
-          <li>Artificial Intelligence</li>
-          <li>Operating Systems</li>
-          <li>Software Quality Assurance</li>
-          <li>Software Architecture</li>
-          <li>Functional Programming</li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-365" className="clickable-link" target="_blank">Algorithms</a></li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-235" className="clickable-link" target="_blank">Data Structures</a></li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-352" className="clickable-link" target="_blank">Artificial Intelligence</a></li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-324" className="clickable-link" target="_blank">Operating Systems</a></li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-327" className="clickable-link" target="_blank">Software Quality Assurance</a></li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-322" className="clickable-link" target="_blank">Software Architecture</a></li>
+          <li><a href="https://www.cs.queensu.ca/undergraduate/courses/CISC-360" className="clickable-link" target="_blank">Functional Programming</a></li>
         </div>
       </div>
 
       <div className="projects">
         <h2>Projects</h2>
-        <p>
-          <b>Equities Trading Algorithm</b> |{" "}
+        <p className="project-boxes">
+          <b><a href="https://github.com/boyczuk" className="clickable-link">Equities Trading Algorithm</a></b> |{" "}
           <i>Python, Jupyter Notebooks, NumPy, pandas, QuantConnect, Scikit-learn</i>
           <li>
             Developed a Python securities trading algorithm that achieved 18%
@@ -76,8 +76,8 @@ function Home() {
           </li>
         </p>
 
-        <p>
-          <b>QBNB</b> | <i>Python, Flask, MongoDB, Pytest, Linux, Docker</i>
+        <p className="project-boxes">
+          <b><a href="https://github.com/mad-cat-lon/qbnb" className="clickable-link">QBNB</a></b> | <i>Python, Flask, MongoDB, Pytest, Linux, Docker</i>
           <li>
             Collaborated on a Python-based CLI app for property rentals and
             booking using a Flask server, managing user data in MongoDB
@@ -87,31 +87,31 @@ function Home() {
             integration testing to ensure product quality
           </li>
         </p>
-        <p>
-          <b>UFC myGym</b> | <i>JavaScript, Node.js, Express.js, MongoDB, React</i>
+        <p className="project-boxes">
+          <b><a href="https://github.com/boyczuk" className="clickable-link">UFC myGym</a></b> | <i>JavaScript, Node.js, Express.js, MongoDB, React</i>
           <li>
             MERN web application to track and train your favourite UFC fighters.
           </li>
         </p>
 
-        <p>
-          <b>myLibrary book tracker</b> | <i>C++, MySQL, Qt</i>
+        <p className="project-boxes">
+          <b><a href="https://github.com/boyczuk/myLibrary" className="clickable-link">myLibrary book tracker</a></b> | <i>C++, MySQL, Qt</i>
           <li>
             Designed and programmed a personal book manager to track and manage
             my reading habits
           </li>
         </p>
 
-        <p>
-          <b>Forest Rumble</b> | <i>C#, Unity, HTML, Photoshop</i>
+        <p className="project-boxes">
+          <b><a href="https://github.com/boyczuk" className="clickable-link">Forest Rumble</a></b> | <i>C#, Unity, HTML, Photoshop</i>
           <li>
             Led development of a 2D level-based platformer. Added novel physics
             mechanics to pair with player movement
           </li>
         </p>
 
-        <p>
-          <b>Toteworthy Merchandise Website</b> | <i>React, Node.js, Boostrap</i>
+        <p className="project-boxes">
+          <b><a href="https://github.com/boyczuk" className="clickable-link">Toteworthy Merchandise Website</a></b> | <i>React, Node.js, Boostrap</i>
           <li>
             Developed a website for a Junior Achievers merchandise startup
             company.
