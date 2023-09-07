@@ -77,6 +77,17 @@ function Home() {
         </p>
 
         <p className="project-boxes">
+          <b><a href="https://github.com/boyczuk" className="clickable-link">Spending Tracker</a></b> |{" "}
+          <i>Javascript, React, Flask, Electron, Sqlite3, HTML, CSS, MaterialUI</i>
+          <li>
+            Desktop app used to track, view, and better manage my personal finances.
+          </li>
+          <li>
+            React frontend running on Electron, using Flask as a backend to store and organize expenses.
+          </li>
+        </p>
+
+        <p className="project-boxes">
           <b><a href="https://github.com/mad-cat-lon/qbnb" className="clickable-link">QBNB</a></b> | <i>Python, Flask, MongoDB, Pytest, Linux, Docker</i>
           <li>
             Collaborated on a Python-based CLI app for property rentals and
