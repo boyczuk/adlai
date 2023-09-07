@@ -12,6 +12,11 @@ export const ProjectList = [
         skills: "Python, MongoDB, Flask, pytest"
     },
     {
+        name: "QBNB - Airbnb clone",
+        image: qbnbimg,
+        skills: "Python, MongoDB, Flask, pytest"
+    },
+    {
         name: "Forest Rumble Unity Game",
         image: ForestRumble,
         skills: "C#, Unity, HTML"
