@@ -10,7 +10,12 @@ function Home() {
         <p>
           Hi, my name is Adlai Bridson-Boyczuk I am a software developer
           currently in my 3rd year of studying Computer Science at Queen's
-          University. During my time at Queen's University I have spent time
+          University. At the moment I am working at Yasu Energy as a Junior Web Developer.
+          
+          </p>
+          <p>
+
+          During my time at Queen's University I have spent time
           developing projects in several organizations like QUANTT (Queen's
           University Algorithmic Network & Trading Team) and QWEB (Queen's
           University Web Development Club) and on my own outside of school.
