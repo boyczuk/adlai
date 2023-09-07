@@ -41,11 +41,11 @@ function Home() {
           <h2>Technical Skills</h2>
           <li>
             <b>Languages:</b>
-            <br></br>Python, Java, JavaScript, C, Bash, x86 Assembly,
+            <br></br>Python, JavaScript, Typescript, Java, C, Bash, x86 Assembly,
           </li>
           <li>
             <b>Frameworks:</b>
-            <br></br>HTML/CSS, Node.js, Express.js, React, Flask, Unity
+            <br></br>HTML/CSS, jQuery, Node.js, Express.js, React, Flask, Unity
           </li>
           <li>
             {" "}
