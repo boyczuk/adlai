@@ -9,7 +9,7 @@ function Home() {
         <h2>About</h2>
         <p>
           Hi, my name is Adlai Bridson-Boyczuk I am a software developer
-          currently in my 3rd year of studying Computer Science at Queen's
+          currently in my 4th year of my undergraduate studying Computer Science at Queen's
           University. At the moment I am working at Yasu Energy as a Junior Web Developer.
           
           </p>
